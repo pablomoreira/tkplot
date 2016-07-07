@@ -158,6 +158,7 @@ def __data_info():
 		print (s.id)
 
 def __showCalendar():
+	return 0
 	ttkcal = Calendar(firstweekday=calendar.SUNDAY)
 	ttkcal.pack(expand=1,fill='both')
 
